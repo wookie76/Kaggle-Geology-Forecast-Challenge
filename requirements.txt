@@ -1,0 +1,30 @@
+# Core Data Science & Numerics
+numpy>=1.23.0,<1.27.0 # Example: Specify a known good range or exact version
+pandas>=1.5.0,<2.3.0
+scipy>=1.9.0,<1.14.0
+
+# Machine Learning - Scikit-learn and related
+scikit-learn>=1.1.0,<1.6.0
+joblib>=1.2.0 # Often bundled with sklearn, but good to list
+
+# Machine Learning - Gradient Boosting & Neural Networks
+xgboost>=1.6.0,<2.1.0
+tensorflow>=2.10.0,<2.17.0 # Keras is part of TF >=2.0
+keras-tuner>=1.4.0,<1.5.0 # For hyperparameter tuning GRU
+
+# Feature Engineering & Signal Processing
+pywavelets>=1.3.0 # PyWt for wavelet transforms
+
+# Configuration & Utilities
+pydantic>=2.0.0,<3.0.0
+loguru>=0.6.0,<0.8.0
+rich>=12.0.0,<14.0.0 # For console tables and enhanced output
+scikit-optimize>=0.9.0,<0.10.0 # skopt for BayesSearchCV
+matplotlib>=3.5.0,<3.9.0 # For plotting (used with "Agg" backend)
+
+# Optional, but often useful development/formatting tools (not strict runtime requirements)
+# black
+# pyinstrument
+# mypy
+# ruff
+# pre-commit
